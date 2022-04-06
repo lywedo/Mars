@@ -16,6 +16,10 @@ namespace DefaultNamespace
 
         public OnClickHandlerDelegate OnClickHandler;
 
+        public delegate void OnFocusHandlerDelegate(int index);
+
+        public OnFocusHandlerDelegate OnFocusHandler;
+
         private void Start()
         {
             ButtonImpl.MouseEvent += MouseEvent;
@@ -26,16 +30,27 @@ namespace DefaultNamespace
             _index = index;
         }
 
+        public void SetFocusColor()
+        {
+            ShowText.color = FocusColor;
+            OnFocusHandler?.Invoke(_index);
+        }
+
+        public void SetNormalColor()
+        {
+            ShowText.color = NormalColor;
+        }
+
         private void MouseEvent(ButtonEvent @event)
         {
             // Debug.Log($"mouse:{@event}");
             switch (@event)
             {
                 case ButtonEvent.Highlighted:
-                    ShowText.color = FocusColor;
+                    SetFocusColor();
                     break;
                 case ButtonEvent.Normal:
-                    ShowText.color = NormalColor;
+                    SetNormalColor();
                     break;
                 case ButtonEvent.Selected:
                     OnClickHandler?.Invoke(_index);

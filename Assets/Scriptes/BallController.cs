@@ -44,6 +44,7 @@ namespace DefaultNamespace
             {
                 Locations[i].Transform.gameObject.GetComponent<MeshRenderer>().enabled = false;
                 Locations[i].CanvasUI.OnClickHandler += OnClickHandler;
+                Locations[i].CanvasUI.OnFocusHandler += OnFocusHandler;
                 Locations[i].CanvasUI.SetIndex(i);
             }
 
@@ -55,6 +56,18 @@ namespace DefaultNamespace
             foreach (var location in Locations)
             {
                 location.CanvasUI.OnClickHandler -= OnClickHandler;
+                location.CanvasUI.OnClickHandler -= OnFocusHandler;
+            }
+        }
+
+        private void OnFocusHandler(int index)
+        {
+            for (int i = 0; i < Locations.Count; i++)
+            {
+                if (i != index)
+                {
+                    Locations[i].CanvasUI.SetNormalColor();
+                }
             }
         }
 
@@ -177,12 +190,12 @@ namespace DefaultNamespace
                 yield return new WaitForEndOfFrame();
                 
             }
-            
+            location.CanvasUI.SetFocusColor();
             if (jump)
             {
                 Debug.Log(location.SceneName);
                 SceneChangeHelper.PreChangeSceneAsync(location.SceneName).Coroutine();
-                MainCamera.transform.DOMoveZ(-4.22f, 1).onComplete = () =>
+                MainCamera.transform.DOMoveZ(-3.8f, 1).onComplete = () =>
                 {
                     CoverImage.sprite = location.CoverImg;
                     CoverImage.rectTransform.localScale = Vector3.one;
