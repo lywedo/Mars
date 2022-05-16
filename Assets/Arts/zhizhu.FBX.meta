@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 58e30ca3192526f44857ba0b76567168
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder_3_4
+    100002: Cylinder_5
+    100004: diao_1
+    100006: jun
+    100008: Lathe_2_3
+    100010: Lathe_2_4
+    100012: sk_10
+    100014: Sphere
+    100016: Sphere_1_2
+    100018: Sphere_1_3
+    100020: Sphere_1_4
+    100022: Sphere_2
+    100024: Sphere_2_2
+    100026: Sphere_3_2
+    100028: Sphere_4_2
+    100030: Sphere_5
+    100032: Spline_6
+    100034: Spline_6_2
+    100036: Sweep_0_6
+    100038: Sweep_12
+    100040: Sweep_1_7
+    100042: Sweep_5_7
+    100044: Sweep_6_2
+    100046: //RootNode
+    400000: Cylinder_3_4
+    400002: Cylinder_5
+    400004: diao_1
+    400006: jun
+    400008: Lathe_2_3
+    400010: Lathe_2_4
+    400012: sk_10
+    400014: Sphere
+    400016: Sphere_1_2
+    400018: Sphere_1_3
+    400020: Sphere_1_4
+    400022: Sphere_2
+    400024: Sphere_2_2
+    400026: Sphere_3_2
+    400028: Sphere_4_2
+    400030: Sphere_5
+    400032: Spline_6
+    400034: Spline_6_2
+    400036: Sweep_0_6
+    400038: Sweep_12
+    400040: Sweep_1_7
+    400042: Sweep_5_7
+    400044: Sweep_6_2
+    400046: //RootNode
+    2100000: wire_204204204
+    2100002: Mat_6
+    2100004: Mat_4
+    2100006: Mat
+    2100008: Mat_2
+    2100010: Mat_5
+    2100012: Mat_1
+    2100014: Mat_3
+    2300000: Cylinder_3_4
+    2300002: Cylinder_5
+    2300004: diao_1
+    2300006: jun
+    2300008: Lathe_2_3
+    2300010: Lathe_2_4
+    2300012: sk_10
+    2300014: Sphere
+    2300016: Sphere_1_2
+    2300018: Sphere_1_3
+    2300020: Sphere_1_4
+    2300022: Sphere_2
+    2300024: Sphere_2_2
+    2300026: Sphere_3_2
+    2300028: Sphere_4_2
+    2300030: Sphere_5
+    2300032: Spline_6
+    2300034: Spline_6_2
+    2300036: Sweep_0_6
+    2300038: Sweep_12
+    2300040: Sweep_1_7
+    2300042: Sweep_5_7
+    2300044: Sweep_6_2
+    3300000: Cylinder_3_4
+    3300002: Cylinder_5
+    3300004: diao_1
+    3300006: jun
+    3300008: Lathe_2_3
+    3300010: Lathe_2_4
+    3300012: sk_10
+    3300014: Sphere
+    3300016: Sphere_1_2
+    3300018: Sphere_1_3
+    3300020: Sphere_1_4
+    3300022: Sphere_2
+    3300024: Sphere_2_2
+    3300026: Sphere_3_2
+    3300028: Sphere_4_2
+    3300030: Sphere_5
+    3300032: Spline_6
+    3300034: Spline_6_2
+    3300036: Sweep_0_6
+    3300038: Sweep_12
+    3300040: Sweep_1_7
+    3300042: Sweep_5_7
+    3300044: Sweep_6_2
+    4300000: Spline_6_2
+    4300002: sk_10
+    4300004: Cylinder_3_4
+    4300006: Lathe_2_3
+    4300008: Lathe_2_4
+    4300010: diao_1
+    4300012: Cylinder_5
+    4300014: Sphere_3_2
+    4300016: jun
+    4300018: Sphere_2
+    4300020: Sphere_5
+    4300022: Sweep_6_2
+    4300024: Spline_6
+    4300026: Sphere_1_3
+    4300028: Sphere_2_2
+    4300030: Sphere_1_4
+    4300032: Sweep_12
+    4300034: Sphere
+    4300036: Sphere_1_2
+    4300038: Sweep_1_7
+    4300040: Sphere_4_2
+    4300042: Sweep_0_6
+    4300044: Sweep_5_7
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

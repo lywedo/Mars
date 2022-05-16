@@ -6,27 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Init.unity
+    path: Assets/4.11/Scenes/Init.unity
     guid: 87cea26355619c2429aebec82a6639e1
   - enabled: 1
-    path: Assets/Scenes/Arabia Terra.unity
+    path: Assets/4.11/Scenes/Arabia Terra.unity
     guid: 3db8219445069b444ab70497bc1436b8
   - enabled: 1
-    path: Assets/Scenes/Bagnold Dune Field.unity
+    path: Assets/4.11/Scenes/Bagnold Dune Field.unity
     guid: 5a19916c1c566504895563854462df2e
   - enabled: 1
-    path: Assets/Scenes/Chryse Planitia.unity
+    path: Assets/4.11/Scenes/Chryse Planitia.unity
     guid: f7a6a717631c3cd4a88a26b85edd8087
   - enabled: 1
-    path: Assets/Scenes/Korolev Crater.unity
+    path: Assets/4.11/Scenes/Korolev Crater.unity
     guid: 5e3123d2eb43ba7498beb438e06052fd
   - enabled: 1
-    path: Assets/Scenes/mars ball.unity
+    path: Assets/4.11/Scenes/mars ball.unity
     guid: 42053cd7027d24fe3b51e55abbcc0c6c
   - enabled: 1
-    path: Assets/Scenes/Olympus Mons.unity
+    path: Assets/4.11/Scenes/Olympus Mons.unity
     guid: b1116cf1d047fa04b863755ee5de3bfa
   - enabled: 1
-    path: Assets/Scenes/Valles Marineris.unity
+    path: Assets/4.11/Scenes/Valles Marineris.unity
     guid: a11b3918b20e26a4bb72a1bd4009211a
   m_configObjects: {}
